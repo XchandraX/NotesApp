@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+  </head>
+
+  <body>
+    <div id="loading" style="display: none">Loading...</div>
+    <h1>Notes App</h1>
+
+    <!-- Tombol Mode Gelap -->
+    <button id="toggle-dark-mode">🌙 Mode Gelap</button>
+
+    <!-- Form untuk menambah catatan -->
+    <note-form></note-form>
+
+    <!-- Form Pencarian -->
+    <search-form></search-form>
+
+    <!-- Form Filter -->
+    <filter-form></filter-form>
+    <div id="notes-container">
+      <!-- Catatan akan muncul di sini -->
+    </div>
+
+    <!-- Tempat menampilkan catatan -->
+    <div id="notes-container"></div>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
